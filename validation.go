@@ -16,12 +16,12 @@ func Loader(L *lua.LState) int {
 }
 
 var exports = map[string]lua.LGFunction{
-	"is_empty":     isEmpty,
-	"is_string":    isString,
-	"is_number":    isNumber,
-	"is_table":     isTable,
-	"is_boolean":   isBoolean,
-	"is_nil":       isNil,
+	"is_empty":       isEmpty,
+	"is_string":      isString,
+	"is_number":      isNumber,
+	"is_table":       isTable,
+	"is_boolean":     isBoolean,
+	"is_nil":         isNil,
 	"validate_email": validateEmail,
 	"validate_url":   validateURL,
 	"validate_regex": validateRegex,
